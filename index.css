@@ -1,0 +1,177 @@
+
+#header{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%
+  
+}
+
+
+@media only screen and (min-width: 768px){
+
+#header-img{
+    position:fixed;
+    left:474px;
+    bottom:445px;
+}
+
+body{
+    background-color: khaki;
+    max-width: fit-content;
+    max-height: fit-content;
+  
+
+}
+
+
+h1{
+    position:fixed;
+    bottom:665px;
+    left:515px;
+   
+
+}
+
+h2{
+    position:fixed;
+    top:262px;
+    left:465px;
+}
+
+
+#nav-bar{
+    position:fixed;
+    bottom:180px;
+    right:100px;
+}
+
+.nav-link{
+    position:fixed;
+    right:210px;
+    bottom:650px;
+    
+}
+
+
+
+.container{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding:10px;
+    bottom:90px;
+    left:25px;
+    
+}
+
+ul{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    width:100%;
+    
+}
+
+
+li{
+    display:inline;
+    
+   }
+
+
+li a{
+    text-align: center;
+    color:black;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 14px 16px;
+    background-color:peru;
+}
+
+li a:hover{
+    background-color: white;
+
+}
+
+
+#email{
+    height:24px;
+    width:24%;
+    text-align: center;
+    position:fixed;
+    left:469px;
+    top:330px;
+}
+
+#submit{
+    background-color: peru;
+    color:white!important;
+    text-align:center;
+    height:24px;
+    width:24%;
+    position: fixed;
+    top:380px;
+    left:471px;
+}
+
+#video{
+    position:fixed;
+    top:500px;
+    left:340px;
+}
+
+#MocToe{
+    position:fixed;
+    left:1px;
+    top:615px;
+}
+
+#Male{
+    position:fixed;
+    top:539px;
+    left:16px;
+}
+
+#Lillian{
+    position:fixed;
+    left:455px;
+    top:600px;
+}
+
+#Female{
+    position:fixed;
+    bottom:10px;
+    left:479px;
+}
+
+#Quality{
+    position:fixed;
+    left:900px;
+    bottom:2px;
+
+
+}
+
+#Craftmanship{
+    position:fixed;
+    bottom:16px;
+    left:907px;
+}
+
+
+#form{
+    text-align: center;
+    position:fixed;
+}
+
+
+footer{
+    text-align: center;
+    position:fixed;
+    top:900px;
+}
+
+}
